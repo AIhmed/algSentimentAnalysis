@@ -11,7 +11,7 @@ import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-apikey = 'AIzaSyAO2YCU9v4VEVSETCcqC_kgTGXq7bidKl8'
+apikey = ''
 #put the access token here (string)
 
 youtube = build('youtube', 'v3', developerKey = apikey)
